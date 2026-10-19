@@ -1,189 +1,182 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Aditya (Adi) Kewalram
+  label: Computer Science & Bioengineering @ UIUC
+  email: adi.kewalram@gmail.com
+  location: Urbana-Champaign, IL
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Junior at the University of Illinois Urbana-Champaign working across ML for biology, computational neuroscience, and ML systems.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: Adi0521
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: adi-kewalram
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: University of Illinois Urbana-Champaign
+        location: Urbana-Champaign, IL
+        url: https://illinois.edu/
+        area: Computer Science & Bioengineering, Grainger College of Engineering
+        studyType: B.S.
+        start_date: 2024-08
+        end_date: 2028-05
+        score: "GPA: 3.89/4.0"
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+          - "Dean's List: Fall 2024, Spring 2025, Spring 2026"
+          - "CS/Math coursework: Deep Learning for Computer Vision, Systems Programming, Computer Architecture, Algorithms & Models of Computation, Data Structures, Statistics & Probability, Linear Algebra w/ Computational Applications, Differential Equations, Discrete Structures"
+          - "Bioengineering coursework: Signals & Systems in Bioengineering, Statistical Analysis of Biomedical Images, Computational Tools for Biological Data, Cells/Tissues & Development"
+          - "In progress: Bioinformatics (CS 466), Modeling Human Physiology, Soft Robotics"
+          - "Organizations: Illinois Neurotech, EV Concept Design, Medical Advancements through Design & Engineering (iMADE)"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Dow
+        position: Data Platform Engineer Intern
+        location: Champaign, IL
+        start_date: 2026-06
+        end_date: present
+        summary: Summer internship, extended part-time through Fall 2026 on a return offer.
         highlights:
-          - Relativity
-          - Description 2.
+          - Building an automated data governance pipeline in Python on Azure and Databricks within an Agile team, targeting 1,200+ resources daily and replacing manual redeployment work that cost dozens of engineer-hours
+          - Developed a recurring Databricks job that cleans and monitors data quality across platform pipelines
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Engelken Lab, University of Illinois Urbana-Champaign
+        position: Undergraduate Research Assistant
+        location: Urbana, IL
+        start_date: 2025-12
+        end_date: present
         highlights:
-          - Description 1.
-          - Description 2.
+          - Scaled spiking network simulations from 10,000 to 100,000 neurons (targeting 1M), modeling cortical dynamics as a high-dimensional dynamical system
+          - Implemented a leaky integrate-and-fire network in Julia for reproducible neuron-state trajectories, validated numerically against a Brian2 reference with a 15× runtime speedup
+          - Added parameterized axonal delay modeling with per-run random network generation, and wrote an exhaustive regression test suite to validate correctness across seeds
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Attune NeuroFeedback
+        position: Model Development Engineer
+        location: Urbana, IL
+        start_date: 2025-02
+        end_date: present
+        summary: Early-stage startup spun out of Illinois Neurotech.
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Designed the EEG model pipeline for a VR neurofeedback therapy system, translating raw multi-channel signals into interpretable session metrics
+          - Built a real-time facial-mesh emotion recognition pipeline in OpenCV; correlated facial movement features to EEG patterns using Random Forest and Gaussian Mixture Models
+          - Trained a bidirectional LSTM to classify attention and working-memory engagement from Gamma-band power and Theta-Beta ratio, reaching 85% accuracy
+          - Deployed a multiscale-entropy (MSE) algorithm for real-time stress estimation inside the VR therapy environment
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: iMADE – Medical Advancements through Design & Engineering
+        position: Project Manager & Technical Lead
+        location: Urbana, IL
+        start_date: 2024-11
+        end_date: 2026-08
+        highlights:
+          - Led a cross-functional team of 8 building a heart-attack detection system end to end, from PCB design through ML validation
+          - Designed a custom 2-layer PCB integrating the TI ADS1298 analog front end for 8-channel ECG acquisition
+          - Built and evaluated GRU and CNN classifiers for ST-elevation detection in ECG waveforms
+          - Developed an end-to-end test pipeline verifying signal integrity from PCB acquisition through model inference
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: Motate
+        position: Software Engineering Intern
+        location: San Jose, CA
+        start_date: 2025-05
+        end_date: 2025-08
+        highlights:
+          - Implemented serverless architecture in Agile sprints for an AI-assisted dubbing and lip-syncing service supporting 15+ languages, using Terraform, AWS Step Functions, Lambda, and SageMaker
+          - Optimized the voice-cloning model pipeline and integrated it with the translation stage via Terraform-managed SageMaker deployments
+          - Integrated the Mailjet API into a JWT authorization Lambda for new-user registration and email confirmation
+          - Developed REST APIs backing user authorization, video upload, and translation-status Lambda functions
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - company: Divergence 2% LLC
+        position: Undergraduate Researcher
+        location: Urbana, IL
+        start_date: 2024-09
+        end_date: 2025-06
+        summary: LLM agent research group led by a UIUC M.S. student; later incorporated.
+        highlights:
+          - Fine-tuned DeepSeek, Qwen 3B, and Llama 3B with Direct Preference Optimization (DPO) on 100+ generated synthetic preference datasets to improve dialogue naturalness
+          - Designed an event-simulation pipeline driving more realistic, self-directed multi-agent LLM conversations
+          - Built a backend inference server on NVIDIA Triton Inference Server with FastAPI and WebSockets for real-time streaming responses
+          - Cut end-to-end inference latency from ~40s to ~1.5s (26×) by converting models to ONNX and serving through TensorRT
+          - Configured and ran distributed training across 4× NVIDIA H100 GPUs using NCCL over TCP/IP
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - company: Science Gurus
+        position: Bioinformatics Intern
+        location: Fremont, CA
+        start_date: 2023-06
+        end_date: 2023-08
+        highlights:
+          - Built a classifier distinguishing seronegative from seropositive NMOSD patients from published cohort data, reaching 95% held-out accuracy
+          - Analyzed published Tocilizumab clinical trial data, finding ~9% of treated patients experienced severe relapse
+          - Processed and modeled drug-response data in R across NMOSD inhibition studies; presented findings to the founder of Aarvik Therapeutics
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: ProPredict – Agentic Protein Structure Refinement Service
+        summary: Python, FastAPI, Celery, Redis, Docker, Modal, Postgres
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Raised mean pLDDT from 68.9 to 88.2 across the benchmark set through iterative agent-driven refinement; benchmarked on 88 CASP15 targets at TM-score 0.503 without MSA and 0.871 with MSA
+          - Built a tool-use agent loop with 8 tools (analyze, relax, simulate, re-fold, scan/apply mutations, accept, escalate), with a deterministic threshold fallback when the agent is disabled
+          - Integrated ESMFold and Boltz-2 with multi-seed ensemble alignment; validated the ProteinMPNN mutation scorer against ProteinGym DMS data (Spearman ρ 0.756 on the best assay)
+          - Ran dual MD engines (OpenMM and GROMACS) with automated trajectory validation; docker-compose for local development and Modal A10G GPUs for production inference
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Automated Event-Driven Trading Bot (Kalshi) – HackIllinois 2026
+        summary: Python, C++, Flask, React, Modal
+        highlights:
+          - Built a multi-stage pipeline from 25+ RSS feeds through SentenceTransformers ticker matching, FinBERT sentiment scoring on Modal GPUs, and Llama 3.3 70B routing via Groq for ambiguous events
+          - Implemented a C++ execution path issuing RSA-PSS signed limit orders with 5–7 ms order construction and signing time
+          - Executed 200+ trades at a 70%+ win rate for $50+ net P&L
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Manhunt – Live Location Game
+        summary: Next.js, React, Supabase, Leaflet/OpenStreetMap, OAuth
+        highlights:
+          - Built a real-time location game with live GPS tracking, admin-configurable map boundaries, and a points/challenge system; served 60+ users with 40 peak concurrent
+          - Built a Kahoot-style room system and live bus route overlays; deployed at manhunt-mu.vercel.app
+
+      - name: Reci – Social Recipe Platform (3rd Place, Research Park Hackathon)
+        summary: Next.js, TypeScript, FastAPI, Supabase, Tailwind
+        highlights:
+          - Full-stack platform with a FastAPI + SQLAlchemy 2 backend and Next.js 16 frontend, both deployed serverless on Vercel
+          - Social layer with star-rating reviews, a friends/followers graph, and a ranked leaderboard
+
+      - name: Self-Driving MiniCar
+        summary: Python, C++, OpenCV, MATLAB Simulink
+        highlights:
+          - Fused LiDAR and camera frames as CNN input for obstacle detection and route correction; cut lap time on a 400 m course by ~4.5 seconds under embedded compute constraints
+          - Solo end-to-end build, from CAD chassis and soldered components to the control stack validated in Simulink
+
+      - name: BillSplitter
+        summary: Next.js, Supabase, Google Vision API
+        highlights:
+          - Receipt OCR with automatic tip/tax allocation and manual override, plus running per-person balances scoped to a group
+
+      - name: Course Scheduler
+        summary: C++, Python, Node.js, HTML/CSS, Figma
+        highlights:
+          - Micro-scheduling algorithm that generates and ranks every feasible hourly breakdown of a weekly class schedule, with a lightweight RAG pipeline for course recommendations
+
+    Awards:
+      - title: 3rd Place, Research Park Hackathon
+        awarder: Research Park Hackathon
+        summary: For Reci, a full-stack social recipe platform.
+
+      - title: Dean's List
+        awarder: Grainger College of Engineering, UIUC
+        summary: Fall 2024, Spring 2025, Spring 2026
+
+    Skills:
+      - name: Languages
+        icon: fa-solid fa-code
+        keywords: "Python, C++, Julia, JavaScript/TypeScript, SQL, Bash (proficient); Java, R, MATLAB (working knowledge)"
+
+      - name: ML & Inference
+        icon: fa-solid fa-microchip
+        keywords: "PyTorch, TensorFlow, OpenCV, TensorRT, ONNX, NVIDIA Triton Inference Server, CUDA, NCCL, distributed training, RL fine-tuning, RAG, SentenceTransformers"
+
+      - name: Backend & Web
+        icon: fa-solid fa-server
+        keywords: "FastAPI, Flask, Celery, Redis, SQLAlchemy, Pydantic, Pytest, Node.js, React, Next.js, Supabase/Postgres, REST APIs, WebSockets"
+
+      - name: Infrastructure
+        icon: fa-solid fa-cloud
+        keywords: "AWS (Lambda, Step Functions, SageMaker), Terraform, Docker, Modal, Microsoft Azure, Databricks, Git, CI/CD (GitHub Actions), Linux, Railway/Vercel"
+
+      - name: Scientific & Domain
+        icon: fa-solid fa-flask
+        keywords: "ESMFold, Boltz-2, ProteinMPNN, OpenMM, GROMACS, PDB, MATLAB Simulink, EEG/ECG signal processing"
