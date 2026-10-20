@@ -523,41 +523,56 @@ ninja.data = [{
           section: "News",},{id: "news-continuing-at-dow-part-time-through-fall-2026-after-my-summer-internship",
           title: 'Continuing at **Dow** part-time through Fall 2026 after my summer internship.',
           description: "",
-          section: "News",},{id: "projects-propredict",
+          section: "News",},{id: "projects-self-driving-minicar",
+          title: 'Self-Driving MiniCar',
+          description: "Solo-built autonomous car with LiDAR + camera fusion",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_minicar/";
+            },},{id: "projects-propredict",
           title: 'ProPredict',
-          description: "Agentic protein structure refinement service",
+          description: "Agentic protein structure prediction",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_propredict/";
-            },},{id: "projects-event-driven-trading-bot",
-          title: 'Event-Driven Trading Bot',
-          description: "Autonomous news-to-trade pipeline for Kalshi · HackIllinois 2026",
+            },},{id: "projects-kalshibot",
+          title: 'KalshiBot',
+          description: "Event-driven trading bot · HackIllinois 2026",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_kalshi_bot/";
             },},{id: "projects-manhunt",
           title: 'Manhunt',
-          description: "Real-time live-location game · 60+ players",
+          description: "Real-time live-location game · 250+ players",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_manhunt/";
-            },},{id: "projects-reci",
-          title: 'Reci',
-          description: "Social recipe platform · 3rd place, Research Park Hackathon",
+            },},{id: "projects-cpu-world-model-distillation",
+          title: 'CPU World Model Distillation',
+          description: "Running a diffusion world model entirely on CPU",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_reci/";
-            },},{id: "projects-self-driving-minicar",
-          title: 'Self-Driving MiniCar',
-          description: "Solo-built autonomous car with LiDAR + camera fusion",
+              window.location.href = "/projects/4_cpu_world_model/";
+            },},{id: "projects-distributed-cpu-inference-cluster",
+          title: 'Distributed CPU Inference Cluster',
+          description: "Daisy-chained CPU nodes for running models locally",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_minicar/";
+              window.location.href = "/projects/5_cpu_cluster/";
+            },},{id: "projects-linux-systems-programming",
+          title: 'Linux Systems Programming',
+          description: "Shell, allocator, servers, and OS internals in C (CS 341)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_systems_programming/";
             },},{id: "projects-billsplitter",
           title: 'BillSplitter',
-          description: "Receipt OCR and running group balances",
+          description: "C++ bill-splitting app with receipt OCR",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_billsplitter/";
+              window.location.href = "/projects/7_billsplitter/";
+            },},{id: "projects-reci",
+          title: 'Reci',
+          description: "Social recipe platform for chefs",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_reci/";
             },},{id: "projects-course-scheduler",
           title: 'Course Scheduler',
-          description: "Weekly schedule generator with RAG course recommendations",
+          description: "Weekly schedule generator with RAG course suggestions",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/7_course_scheduler/";
+              window.location.href = "/projects/9_course_scheduler/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
